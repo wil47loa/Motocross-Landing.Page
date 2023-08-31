@@ -1,0 +1,291 @@
+.btn-primary-p{
+    padding: 10px 30px;
+    color: #f60;
+    background: rgb(255, 255, 255);
+    border-radius:50px;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 20px 0;
+    transition:  .5s;
+}
+.btn-primary-p:hover{
+    background: #f60;
+    color: rgb(0, 0, 0);
+    border-radius: 0;
+}
+.bg-portafolio-nav{
+    background: rgb(0, 0, 0);
+}
+
+.btn-primary-p{
+    background: black;
+}
+
+.btn-dark{
+    color: #f60;
+    font-size: 20px;
+    transition: .5s;
+
+}
+
+.nav-link{
+    font-size: 20px;
+    color: #fff;
+}
+
+.nav-link:hover{
+    transition: .5s;
+    border-radius: 70px ;
+    background: #fff;
+    color: #f60;
+}
+
+#carouselheroCaptions .carousel-caption h5{
+    color: aqua;
+    font-size: 50px;
+}
+
+
+
+#services{
+    text-align: center;
+    padding: 150px 0;
+    background: rgb(37, 36, 36);
+}
+#services h2{
+    color: #f60;
+    margin-bottom: 40px;
+}
+
+#services h3{
+    color: #f60;
+}
+
+#services p{
+    color: #fff;
+}
+
+#about{
+    padding: 150px;
+}
+#about h2{
+    color: #f60;
+    font-size: 45px;
+    margin-bottom: 45px;
+}
+
+#about p{
+    font-size: 20px;
+}
+
+#about img{
+    width: 500px;
+    max-width: 100%;
+}
+footer{
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    text-align: center;
+}
+#carouselheroCaptions .carousel-caption{
+    position: absolute;
+    z-index: 9;
+    bottom: 50%;
+}
+#carouselheroCaptions .carousel-caption h5{
+    font-size: 70px;
+}
+#carouselheroCaptions .carousel-caption p{
+    font-size: 30px;
+}
+#carouselheroCaptions .carousel-indicators{
+    bottom: 46%;
+}
+#carouselheroCaptions .carousel-indicators button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+#services .item-services{
+    transition: .5s;
+    padding-bottom: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+#services .item-services:hover{
+    box-shadow: 0px 0px 8px 15px rgb(255, 255, 255);
+}
+.whatsapp{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 99;
+    transition: .5s;
+    border-radius: 50px; 
+}
+.whatsapp:hover{
+    box-shadow: 0px 0px 8px 15px #f60;
+    transform: scale(1.1);
+}
+#preguntas{
+    margin-top: 100px;
+}
+#preguntas h3{
+    color: #f60;
+}
+#preguntas img{
+    margin: 0 0 50px 0;
+}
+
+
+
+#javascript{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 120px 0;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+    z-index: 0;
+}
+
+#panel-lateral{
+    width: 30%;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    border-right: 4px solid #f60;
+    position: absolute;
+    top: 0px;
+    left: -30%;
+    z-index: 9;
+    transition: .5s;
+}
+
+#panel-lateral.active{
+    left: 0;
+}
+
+#panel-lateral .close-panel{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+#panel-lateral h3{
+    margin-top: 60px;
+    text-align: center;
+    color: #000000;
+}
+
+#panel-lateral ul{
+    width: 60%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#panel-lateral li{
+    list-style: none;
+}
+
+#panel-lateral li a{
+    text-decoration:  none;
+    display: block;
+    padding: 12px;
+    background: black;
+    border: 1px solid #f60;
+    color: #fff;
+    margin: 15px 0;
+}
+
+
+
+#javascript h2{
+    color: #f60;
+    margin-bottom: 50px;
+}
+#javascript button{
+    background: rgb(255, 255, 255);
+    color: #f60;
+    margin: 5px 8px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: .5s;
+
+}
+
+.derechos p{
+    color: #f60;
+    font-size: 20px;
+}
+
+
+#javascript button:hover{
+    background: #f60;
+    color: rgb(255, 255, 255);
+}
+#javascript hr{
+    border-color: rgb(255, 0, 0);
+}
+#figura{
+    width: 200px;
+    height: 200px;
+    background: #f60;
+    margin: 40px auto ;
+}
+
+
+#figura.circulo{
+    border-radius: 50%;
+    transform: rotate(-360deg);
+    background: #fff;
+    border: 2px solid red;
+}
+
+#figura.horizontal{
+    width: 400px;
+    background: rgb(255, 255, 255);
+}
+
+#figura.vertical{
+    height: 500px;
+    background: #fff;
+}
+
+#figura.gif{
+    width: 600px;
+    height: 600px;
+    background: url(../img/elden-ring.gif);
+    background-size: cover;
+    transition: .5s;   
+}
+
+
+#figura.top{
+    transform: translateY(-190px);
+    transition: .7s;
+}
+
+#figura.right{
+    transform: translateX(190px);
+    transition: .7s;
+}
+
+#figura.left{
+    transform: translateX(-190px);
+    transition:  .7s;
+}
+
+
+#figura.bottom{
+    transform: translateY(190px);
+    transition: .7s;
+}
+
+#figura.degradado{
+    background: linear-gradient( #f60,#000000,#fff );
+    transform: translate3d();
+}
+
